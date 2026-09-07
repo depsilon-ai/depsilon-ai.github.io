@@ -1,0 +1,15 @@
+/* The same page content remains readable when JavaScript is unavailable. */
+html { scroll-behavior: auto; }
+html .cinematic-track, html .cinematic-stage { height: auto; overflow: visible; }
+html .cinematic-stage, html .cinematic-overlay, html .navbar, html .text-scene { position: relative; inset: auto; }
+html .cinematic-overlay { pointer-events: auto; }
+html .scene-video { position: relative; inset: auto; width: 100%; height: auto; max-height: 65vh; object-fit: contain; }
+html .text-scene { opacity: 1 !important; padding: 64px var(--page-gutter); }
+html .text-scene .stagger { opacity: 1; transform: none; }
+html .origin-content, html .approach-content, html .horizon-content { position: static; width: 100%; max-width: 1080px; transform: none; text-align: left; }
+html .principles { justify-content: flex-start; }
+html .navbar { flex-wrap: wrap; gap: 24px; }
+html .desktop-nav { display: flex; flex-wrap: wrap; gap: 24px; }
+html .brand, html .desktop-nav a { animation: none; }
+html .scene-canvas, html .scene-next, html .scene-controls, html .scene-meta, html .scroll-progress, html .menu-toggle, html .mobile-menu, html .carousel-footer { display: none; }
+html .venture-rail { cursor: auto; }
